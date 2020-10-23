@@ -8,8 +8,22 @@ $(document).ready(function() {
 
     if (frontEnd==="yes" && start==="yes" && solve ==="yes"){
       $("#python").show();
-      
-    }
+
+    } else if (frontEnd==="yes" && start==="yes" && solve ==="no"){
+      $("#ruby").show();
+    } else if (frontEnd==="yes" && start==="no" && solve ==="no"){
+      $("#javascript").show();
+    } else if (frontEnd==="yes" && start==="no" && solve ==="yes"){
+      $("#javascript").show();
+    } else if (frontEnd==="yes" && start==="no" && solve ==="no"){
+      $("#javascript").show();
+    } else if (frontEnd==="yes" && start==="no" && solve ==="no"){
+      $("#javascript").show();
+    } else if (frontEnd==="yes" && start==="no" && solve ==="no"){
+      $("#javascript").show();
+    } 
+    
+    
 
     
 
