@@ -12,15 +12,19 @@ $(document).ready(function() {
     } else if (frontEnd==="yes" && start==="yes" && solve ==="no"){
       $("#ruby").show();
     } else if (frontEnd==="yes" && start==="no" && solve ==="no"){
-      $("#javascript").show();
+      $("#swift").show();
+    } else if (frontEnd==="no" && start==="yes" && solve ==="yes"){
+      $("#python").show();
+    } else if (frontEnd==="no" && start==="yes" && solve ==="no"){
+      $("#swift").show();
+    } else if (frontEnd==="no" && start==="no" && solve ==="yes"){
+      $("#python").show();
+    } else if (frontEnd==="no" && start==="no" && solve ==="no"){
+      $("#swift").show();
     } else if (frontEnd==="yes" && start==="no" && solve ==="yes"){
       $("#javascript").show();
-    } else if (frontEnd==="yes" && start==="no" && solve ==="no"){
-      $("#javascript").show();
-    } else if (frontEnd==="yes" && start==="no" && solve ==="no"){
-      $("#javascript").show();
-    } else if (frontEnd==="yes" && start==="no" && solve ==="no"){
-      $("#javascript").show();
+    } else if (frontEnd==="no" && start==="yes" && solve ==="no"){
+      $("#python").show();
     } 
     
     
