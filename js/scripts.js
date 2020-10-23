@@ -4,17 +4,16 @@ $(document).ready(function() {
 
     const frontEnd = $("select#quest1").val();
     const start = $("select#quest2").val();
-    const solve = $("select#quest2").val();
-    const critic = $("select#quest2").val();
-    const excite = $("select#quest2").val();
+    const solve = $("select#quest3").val();
 
-    
-
-    if (frontEnd === "front" || start === "twelve") {
+    if (frontEnd==="yes" && start==="yes" && solve ==="yes"){
+      $("#python").show();
       
     }
 
+    
 
+    
 
 
   });
