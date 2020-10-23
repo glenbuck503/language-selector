@@ -1,11 +1,16 @@
 body {
   background-color:#99e5aa;
+
+  
 }
+
 .container {
   font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
 font-weight:bold;
 padding: 15px;
+border-style: solid
+
 }
 
 .head {
