@@ -5,3 +5,12 @@ body {
 .head {
   text-align: center;
 }
+
+.firstp {
+  color: red;
+  font-size:24px;
+}
+
+.container {
+  font-size: 20px;
+}
