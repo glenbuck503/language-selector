@@ -1,16 +1,33 @@
 body {
   background-color:#99e5aa;
 }
+.container {
+  font-size: 20px;
+}
 
 .head {
   text-align: center;
 }
 
 .firstp {
-  color: red;
+  font-family: 'Courier New', Courier, monospace;
   font-size:24px;
 }
 
-.container {
-  font-size: 20px;
+#python {
+  display: none;
 }
+
+#ruby {
+  display: none;
+}
+
+#javascript {
+  display: none;
+}
+
+#swift {
+  display: none;
+}
+
+
