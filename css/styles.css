@@ -1,7 +1,5 @@
 body {
-  background-color:#99e5aa;
-
-  
+  background-color:#99e5aa;  
 }
 
 .container {
@@ -10,7 +8,6 @@ body {
 font-weight:bold;
 padding: 15px;
 border-style: solid
-
 }
 
 .head {
