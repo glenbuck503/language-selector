@@ -5,6 +5,8 @@ $(document).ready(function() {
     const frontEnd = $("select#quest1").val();
     const start = $("select#quest2").val();
     const solve = $("select#quest3").val();
+    const work = $("select#quest4").val();
+    const ready = $("select#quest5").val();
 
     if (frontEnd==="yes" && start==="yes" && solve ==="yes"){
       $("#python").show();
@@ -27,10 +29,6 @@ $(document).ready(function() {
       $("#python").show();
     } 
     
-    
-
-    
-
     
 
 
