@@ -4,9 +4,14 @@ $(document).ready(function() {
 
     const frontEnd = $("select#quest1").val();
     const start = $("select#quest2").val();
+    const solve = $("select#quest2").val();
+    const critic = $("select#quest2").val();
+    const excite = $("select#quest2").val();
 
-    if (frontEnd === "yes" || start === "twelve") {
-      alert("dsfsd");
+    
+
+    if (frontEnd === "front" || start === "twelve") {
+      
     }
 
 
