@@ -111,18 +111,7 @@ $(document).ready(function() {
     } else if (frontEnd === "no" & start==="yes" && solve==="yes" && work==="yes" && ready==="no"){
       $("#python").show();
     }
-    
-      
-        
-      
-
-    
-
-
-    
-    
-
-
+  
   });
 });
 
