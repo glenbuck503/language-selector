@@ -8,31 +8,53 @@ $(document).ready(function() {
     const work = $("select#quest4").val();
     const ready = $("select#quest5").val();
 
-    if (frontEnd==="yes" && start==="yes" && solve ==="yes"){
+    if (frontEnd === "yes" & start==="yes" && solve==="yes" && work==="yes" && ready==="yes"){
       $("#python").show();
+    } else if (frontEnd === "no" & start==="no" && solve==="no" && work==="no" && ready==="no"){
+      $("#python").show();
+     }else if (frontEnd === "yes" & start==="yes" && solve==="yes" && work==="yes" && ready==="no"){
+      $("#python").show();
+    } else if (frontEnd === "yes" & start==="yes" && solve==="yes" && work==="no" && ready==="yes"){
+      $("#python").show();
+    } else if (frontEnd === "yes" & start==="yes" && solve==="no" && work==="yes" && ready==="yes"){
+      $("#python").show();
+    } else if (frontEnd === "yes" & start==="no" && solve==="yes" && work==="yes" && ready==="yes"){
+      $("#python").show();
+    } else if (frontEnd === "no" & start==="yes" && solve==="yes" && work==="yes" && ready==="yes"){
+      $("#python").show();
+    } else if (frontEnd === "no" & start==="no" && solve==="yes" && work==="yes" && ready==="yes"){
+      $("#python").show();
+    } else if (frontEnd === "no" & start==="yes" && solve==="no" && work==="yes" && ready==="yes"){
+      $("#python").show();
+    } else if (frontEnd === "no" & start==="yes" && solve==="yes" && work==="no" && ready==="yes"){
+      $("#python").show();
+    } else if (frontEnd === "no" & start==="yes" && solve==="yes" && work==="yes" && ready==="no"){
+      $("#python").show();
+    } else if (frontEnd === "yes" & start==="no" && solve==="no" && work==="yes" && ready==="yes"){
+      $("#python").show();
+    } else if (frontEnd === "yes" & start==="no" && solve==="yes" && work==="no" && ready==="yes"){
+      $("#python").show();
+    } else if (frontEnd === "yes" & start==="no" && solve==="yes" && work==="yes" && ready==="no"){
+      $("#python").show();
+    }else if (frontEnd === "yes" & start==="yes" && solve==="no" && work==="no" && ready==="yes"){
+      $("#python").show();
+    }else if (frontEnd === "yes" & start==="yes" && solve==="no" && work==="yes" && ready==="no"){
+      $("#python").show();
+    }else if (frontEnd === "yes" & start==="yes" && solve==="yes" && work==="no" && ready==="no"){
+      $("#python").show();
+    }else if (frontEnd === "no" & start==="no" && solve==="no" && work==="yes" && ready==="yes"){
+      $("#python").show();
+    }
+    
 
-    } else if (frontEnd==="yes" && start==="yes" && solve ==="no"){
-      $("#ruby").show();
-    } else if (frontEnd==="yes" && start==="no" && solve ==="no"){
-      $("#swift").show();
-    } else if (frontEnd==="no" && start==="yes" && solve ==="yes"){
-      $("#python").show();
-    } else if (frontEnd==="no" && start==="yes" && solve ==="no"){
-      $("#swift").show();
-    } else if (frontEnd==="no" && start==="no" && solve ==="yes"){
-      $("#python").show();
-    } else if (frontEnd==="no" && start==="no" && solve ==="no"){
-      $("#swift").show();
-    } else if (frontEnd==="yes" && start==="no" && solve ==="yes"){
-      $("#javascript").show();
-    } else if (frontEnd==="no" && start==="yes" && solve ==="no"){
-      $("#python").show();
-    } 
+
     
     
 
 
   });
 });
+
+
 
 
