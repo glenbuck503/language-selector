@@ -8,6 +8,11 @@ $(document).ready(function() {
     const work = $("select#quest4").val();
     const ready = $("select#quest5").val();
 
+    $("#python").hide();
+    $("#ruby").hide();
+    $("#javascript").hide();
+    $("#swift").hide();
+
     if (frontEnd === "yes" & start==="yes" && solve==="yes" && work==="yes" && ready==="yes"){
       $("#python").show();
     } else if (frontEnd === "no" & start==="no" && solve==="no" && work==="no" && ready==="no"){
